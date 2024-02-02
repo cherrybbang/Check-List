@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/check_list.css"> 
+  <title>체크 리스트</title>
+</head>
+<body>
+  <div class="wrap">
+    <h1>오늘의 할 일은?</h1>
+    <div class="search">
+      <input type="text" class="search_bar" placeholder="집에가자..">
+      <button class="search_btn">+</button>
+    </div>
+
+    <div class="check">
+      <div class="first">
+        <input type="radio" id="option1" name="check" value="how">
+        <label for="option1" class="ccc">어떻게 갈 것인가...</label>
+        <button>삭제</button>
+      </div>
+      <div class="second">
+        <input type="radio" id="option2" name="check" value="what" id="click"> 
+        <label for="option2">하 존나 인생이란...</label>
+        <button type="submit" class="hi">삭제</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/check_list.js"></script>
+</body>
+</html>
