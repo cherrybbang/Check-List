@@ -5,3 +5,4 @@ change.forEach(function(div){
     div.classList.toggle('delete')
   })
 })
+
